@@ -1,0 +1,14 @@
+[
+  {
+    "messageId": "test-message-2",
+    "type": "track",
+    "event": "Second Test Event",
+    "userId": "test-user-2",
+    "properties": {
+      "value": 7
+    },
+    "context": {
+      "second_key": "Hello Again!"
+    }
+  }
+]
