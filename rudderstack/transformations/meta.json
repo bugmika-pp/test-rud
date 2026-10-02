@@ -7,6 +7,14 @@
       "language": "javascript",
       "test-input-file": "./rudderstack/transformations/exampleTransformation.input.json",
       "expected-output": "./rudderstack/transformations/exampleTransformation.expected.json"
+    },
+    {
+      "file": "./rudderstack/transformations/secondExampleTransformation.js",
+      "name": "secondExampleTransformation",
+      "description": "Second example transformation that adds context.second_key",
+      "language": "javascript",
+      "test-input-file": "./rudderstack/transformations/secondExampleTransformation.input.json",
+      "expected-output": "./rudderstack/transformations/secondExampleTransformation.expected.json"
     }
   ]
 }
