@@ -1,0 +1,12 @@
+{
+  "transformations": [
+    {
+      "file": "./rudderstack/transformations/exampleTransformation.js",
+      "name": "exampleTransformation",
+      "description": "Example transformation that adds context.new_key",
+      "language": "javascript",
+      "test-input-file": "./rudderstack/transformations/exampleTransformation.input.json",
+      "expected-output": "./rudderstack/transformations/exampleTransformation.expected.json"
+    }
+  ]
+}

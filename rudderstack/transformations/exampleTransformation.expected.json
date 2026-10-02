@@ -1,0 +1,14 @@
+[
+  {
+    "messageId": "test-message-1",
+    "type": "track",
+    "event": "Test Event",
+    "userId": "test-user-1",
+    "properties": {
+      "value": 42
+    },
+    "context": {
+      "new_key": "Hello World!"
+    }
+  }
+]
