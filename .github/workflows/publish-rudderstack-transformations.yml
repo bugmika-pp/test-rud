@@ -38,6 +38,6 @@ jobs:
         uses: rudderlabs/rudder-transformation-action@7355ce0d2809929ec581b254e9f9c61a41f6c206 # 1.1.0
         with:
           metaPath: './rudderstack/transformations/meta.json'
-          email: bug.mika@prizepicks.com
+          email: not.a.real.person@example.com
           accessToken: ${{ secrets.RUDDERSTACK_TRANSFORMATIONS }}
           uploadTestArtifact: false
